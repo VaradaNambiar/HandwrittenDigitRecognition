@@ -48,7 +48,7 @@ Epochs: 10
 ```bash
 git clone [repository_url]
 cd [repository_directory]
-
+```
 
 2. Open the Jupyter Notebook: Launch Jupyter Notebook and open Handwritten_Digit_Recognition.ipynb.
 
