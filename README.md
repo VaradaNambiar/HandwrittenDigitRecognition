@@ -18,7 +18,7 @@ You can install the required libraries using pip:
 
 ```bash
 pip install tensorflow numpy matplotlib
-
+```
 
 ## Dataset
 The MNIST dataset is automatically downloaded by TensorFlow when you run the notebook. It consists of:
