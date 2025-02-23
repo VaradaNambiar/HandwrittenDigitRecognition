@@ -21,11 +21,11 @@ pip install tensorflow numpy matplotlib
 ```
 
 ## Dataset
-The MNIST dataset is automatically downloaded by TensorFlow when you run the notebook. It consists of:
-
-60,000 training images
-10,000 test images
-Each image is a 28x28 pixel grayscale image.
+The MNIST dataset is automatically downloaded by TensorFlow when you run the notebook. It consists of:   
+    
+60,000 training images   
+10,000 test images    
+Each image is a 28x28 pixel grayscale image.    
 
 ## Model Architecture
 The neural network architecture is as follows:
