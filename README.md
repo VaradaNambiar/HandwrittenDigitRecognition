@@ -30,35 +30,30 @@ Each image is a 28x28 pixel grayscale image.
 ## Model Architecture
 The neural network architecture is as follows:
 
-Flatten Layer: Converts the 28x28 input image into a 784-element vector.
-Dense Layer (Hidden Layer): 128 neurons with ReLU activation.
-Dense Layer (Output Layer): 10 neurons (one for each digit) with Softmax activation.
+Flatten Layer: Converts the 28x28 input image into a 784-element vector.   
+Dense Layer (Hidden Layer): 128 neurons with ReLU activation.   
+Dense Layer (Output Layer): 10 neurons (one for each digit) with Softmax activation.   
 
 ## Training
 The model is trained using the following parameters:
 
-Optimizer: Adam
-Loss function: Sparse Categorical Crossentropy
-Metrics: Accuracy
-Epochs: 10
+Optimizer: Adam   
+Loss function: Sparse Categorical Crossentropy   
+Metrics: Accuracy   
+Epochs: 10   
 
 ## Usage
-1. Clone the Repository (Optional): If you are viewing this on a platform like GitHub, clone the repository to your local machine:
+1. Clone the Repository (Optional): If you are viewing this on a platform like GitHub, clone the repository to your local machine.
 
-```bash
-git clone [repository_url]
-cd [repository_directory]
-```
-
-2. Open the Jupyter Notebook: Launch Jupyter Notebook and open Handwritten_Digit_Recognition.ipynb.
+2. Open the Jupyter Notebook: Launch Jupyter Notebook and open HandwrittenDigitRecognitionModel.ipynb.
 
 3. Run the Notebook: Execute the cells in the notebook sequentially. The notebook will:
 
-	-Load and preprocess the MNIST dataset.
-	-Build the neural network model.
-	-Train the model.
-	-Evaluate the model's performance on the test set.
-	-Display sample predictions and the loss vs epoch graph.
+	-Load and preprocess the MNIST dataset.   
+	-Build the neural network model.    
+	-Train the model.   
+	-Evaluate the model's performance on the test set.    
+	-Display sample predictions and the loss vs epoch graph.    
 
 4. View Results: The notebook will output the test accuracy and display sample predictions, along with a graph showing the training loss over epochs.
 
